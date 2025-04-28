@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suma Public School - Bengaluru</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #004aad;
+      padding: 1rem 2rem;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1607083204528-7830d5b2f26f?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      animation: fadeInDown 1.5s ease;
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-50px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    section {
+      padding: 2rem 5%;
+    }
+    .info {
+      background: white;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .info:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #004aad;
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin-left: 1.2rem;
+    }
+    .contact, .admissions {
+      background: #e9f2ff;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #004aad;
+      color: white;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+      .hero {
+        height: 30vh;
+      }
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Suma Public School</h1>
+  <nav>
+    <a href="#location">Location</a>
+    <a href="#academics">Academics</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#contact">Contact</a>
+    <a href="#admissions">Admissions</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Suma Public School</h2>
+</section>
+
+<section id="location" class="info">
+  <h2>📍 Location</h2>
+  <p>1st Cross Road, G Narayanappa Layout, Hebbal Kempapura, Bengaluru, Karnataka 560024</p>
+</section>
+
+<section id="academics" class="info">
+  <h2>🏫 Academic Details</h2>
+  <ul>
+    <li><strong>Board:</strong> State Board (Karnataka)</li>
+    <li><strong>Grades Offered:</strong> Pre-Nursery to Class 10</li>
+    <li><strong>Medium of Instruction:</strong> English</li>
+    <li><strong>Class Strength:</strong> Approximately 40 students per class</li>
+    <li><strong>Annual Fee:</strong> ₹55,000</li>
+  </ul>
+</section>
+
+<section id="facilities" class="info">
+  <h2>🏢 Infrastructure & Facilities</h2>
+  <ul>
+    <li>Spacious classrooms</li>
+    <li>Library available</li>
+    <li>Digital boards and internet connectivity</li>
+    <li>Indoor and outdoor sports facilities</li>
+    <li>School transport services</li>
+    <li>Basic safety measures in place</li>
+  </ul>
+</section>
+
+<section id="feedback" class="info">
+  <h2>🌟 Parent & Community Feedback</h2>
+  <p><strong>Overall Rating:</strong> 4.5/5</p>
+  <ul>
+    <li>Positive feedback on teaching quality and co-curricular activities</li>
+    <li>Praised for academic focus and timely completion of activities</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>📞 Contact Information</h2>
+  <p><strong>Phone:</strong> +91 9538382711, 8884411233, 9448018191</p>
+  <p><strong>Email:</strong> <a href="mailto:sumapublicschool@gmail.com">sumapublicschool@gmail.com</a></p>
+</section>
+
+<section id="admissions" class="admissions">
+  <h2>🗓️ Admission Details</h2>
+  <ul>
+    <li><strong>Admission Start Month:</strong> Second week of December</li>
+    <li><strong>Minimum Age for Admission:</strong> 3.6 years</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Suma Public School. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
